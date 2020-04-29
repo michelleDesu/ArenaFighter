@@ -2,7 +2,7 @@ package se.lexicon.michelle.model;
 
 import java.util.Arrays;
 
-public class player {
+public class Player {
     private String name;
     private  int strength,
                     life,
@@ -12,7 +12,7 @@ public class player {
 
 
 
-    public player(String name, int strength, int maxlife) {
+    public Player(String name, int strength, int maxlife) {
         this.name = name;
         this.strength = strength;
         this.maxlife = maxlife;
